@@ -1,12 +1,14 @@
 import express from "express";
+import cors from "cors";
 
 const app = express();
-const port = 3000;
+
+//middleware
+app.use(cors());
+app.use(express.json());
 
 app.get("/", (req, res) => {
-	res.send("Welcome to my server!");
+	res.send({ message: "Hello, Express! " });
 });
 
-app.listen(port, () => {
-	console.log(`Server is running on port ${port}`);
-});
+app.listen(5000, "0.0.0.0", () => console.log("Server running on port 5000"));
