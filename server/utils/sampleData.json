@@ -1,0 +1,268 @@
+[
+	{
+		"_id": {
+			"$oid": "66c16771eb3b0a6aca392994"
+		},
+		"userId": {
+			"$oid": "64dfc9b83d50a97d1c456789"
+		},
+		"title": "Central Park Exploration",
+		"description": "A note about exploring Central Park in New York City.",
+		"is_public": true,
+		"location": {
+			"type": "Point",
+			"coordinates": [-73.965355, 40.782865]
+		},
+		"categories": [
+			{
+				"id": {
+					"$oid": "64dfc9b83d50a97d1c456790"
+				},
+				"name": "Parks",
+				"color": "#4CAF50",
+				"created_at": {
+					"$date": "2024-08-17T10:00:00.000Z"
+				}
+			},
+			{
+				"id": {
+					"$oid": "64dfc9b83d50a97d1c456791"
+				},
+				"name": "Nature",
+				"color": "#8BC34A",
+				"created_at": {
+					"$date": "2024-08-17T11:00:00.000Z"
+				}
+			}
+		],
+		"reported_by": [
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456792"
+				},
+				"reported_on": {
+					"$date": "2024-08-17T09:30:00.000Z"
+				}
+			}
+		],
+		"liked_by": [
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456793"
+				},
+				"liked_on": {
+					"$date": "2024-08-17T09:30:00.000Z"
+				}
+			},
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456794"
+				},
+				"liked_on": {
+					"$date": "2024-08-17T09:30:00.000Z"
+				}
+			}
+		],
+		"created_at": {
+			"$date": "2024-08-17T09:30:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "66c16771eb3b0a6aca392995"
+		},
+		"userId": {
+			"$oid": "64dfc9b83d50a97d1c456793"
+		},
+		"title": "Golden Gate Bridge Visit",
+		"description": "A note from my trip to the Golden Gate Bridge.",
+		"is_public": false,
+		"location": {
+			"type": "Point",
+			"coordinates": [-122.478255, 37.819929]
+		},
+		"categories": [
+			{
+				"id": {
+					"$oid": "64dfc9b83d50a97d1c456794"
+				},
+				"name": "Landmarks",
+				"color": "#FF9800",
+				"created_at": {
+					"$date": "2024-08-18T12:00:00.000Z"
+				}
+			}
+		],
+		"reported_by": [
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456795"
+				},
+				"reported_on": {
+					"$date": "2024-08-18T11:30:00.000Z"
+				}
+			},
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456796"
+				},
+				"reported_on": {
+					"$date": "2024-08-18T11:30:00.000Z"
+				}
+			}
+		],
+		"liked_by": [
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456797"
+				},
+				"liked_on": {
+					"$date": "2024-08-18T11:30:00.000Z"
+				}
+			}
+		],
+		"created_at": {
+			"$date": "2024-08-18T11:30:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "66c16771eb3b0a6aca392996"
+		},
+		"userId": {
+			"$oid": "64dfc9b83d50a97d1c456797"
+		},
+		"title": "Eiffel Tower Experience",
+		"description": "Memories from my visit to the Eiffel Tower in Paris.",
+		"is_public": true,
+		"location": {
+			"type": "Point",
+			"coordinates": [2.294481, 48.85837]
+		},
+		"categories": [
+			{
+				"id": {
+					"$oid": "64dfc9b83d50a97d1c456798"
+				},
+				"name": "Tourism",
+				"color": "#2196F3",
+				"created_at": {
+					"$date": "2024-08-19T15:00:00.000Z"
+				}
+			},
+			{
+				"id": {
+					"$oid": "64dfc9b83d50a97d1c456799"
+				},
+				"name": "Architecture",
+				"color": "#3F51B5",
+				"created_at": {
+					"$date": "2024-08-19T15:30:00.000Z"
+				}
+			}
+		],
+		"reported_by": [],
+		"liked_by": [],
+		"created_at": {
+			"$date": "2024-08-19T14:00:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "66c16771eb3b0a6aca392997"
+		},
+		"userId": {
+			"$oid": "64dfc9b83d50a97d1c456800"
+		},
+		"title": "Mount Everest Base Camp Trek",
+		"description": "Journal entries from my trek to the Mount Everest Base Camp.",
+		"is_public": false,
+		"location": {
+			"type": "Point",
+			"coordinates": [86.925026, 27.988119]
+		},
+		"categories": [
+			{
+				"id": {
+					"$oid": "64dfc9b83d50a97d1c456801"
+				},
+				"name": "Adventure",
+				"color": "#FFC107",
+				"created_at": {
+					"$date": "2024-08-20T09:00:00.000Z"
+				}
+			}
+		],
+		"reported_by": [
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456802"
+				},
+				"reported_on": {
+					"$date": "2024-08-20T08:30:00.000Z"
+				}
+			}
+		],
+		"liked_by": [],
+		"created_at": {
+			"$date": "2024-08-20T08:30:00.000Z"
+		}
+	},
+	{
+		"_id": {
+			"$oid": "66c16771eb3b0a6aca392998"
+		},
+		"userId": {
+			"$oid": "64dfc9b83d50a97d1c456803"
+		},
+		"title": "Sydney Opera House",
+		"description": "Captured moments from visiting the iconic Sydney Opera House.",
+		"is_public": true,
+		"location": {
+			"type": "Point",
+			"coordinates": [151.215256, -33.856784]
+		},
+		"categories": [
+			{
+				"id": {
+					"$oid": "64dfc9b83d50a97d1c456804"
+				},
+				"name": "Arts",
+				"color": "#9C27B0",
+				"created_at": {
+					"$date": "2024-08-21T16:00:00.000Z"
+				}
+			}
+		],
+		"reported_by": [],
+		"liked_by": [
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456805"
+				},
+				"liked_on": {
+					"$date": "2024-08-21T15:30:00.000Z"
+				}
+			},
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456806"
+				},
+				"liked_on": {
+					"$date": "2024-08-21T15:30:00.000Z"
+				}
+			},
+			{
+				"uid": {
+					"$oid": "64dfc9b83d50a97d1c456807"
+				},
+				"liked_on": {
+					"$date": "2024-08-21T15:30:00.000Z"
+				}
+			}
+		],
+		"created_at": {
+			"$date": "2024-08-21T15:30:00.000Z"
+		}
+	}
+]
