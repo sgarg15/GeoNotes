@@ -24,7 +24,7 @@ export default function MainScreen() {
 				<Icon name="map-pin" size={50} color="#000" />
 			</View>
 			<View style={styles.buttonContainer}>
-				<Link href="/signup" asChild>
+				<Link href="/user/home" asChild replace={true}>
 					<TouchableOpacity
 						style={styles.getStartedButton}
 						onPress={() => console.log("Get Started")}
@@ -32,9 +32,11 @@ export default function MainScreen() {
 						<Text style={styles.getStartedText}>Get Started</Text>
 					</TouchableOpacity>
 				</Link>
-				<TouchableOpacity onPress={() => console.log("login")}>
-					<Text style={styles.loginText}>Login</Text>
-				</TouchableOpacity>
+				<Link href="/user/login" asChild>
+					<TouchableOpacity onPress={() => console.log("login")}>
+						<Text style={styles.loginText}>Login</Text>
+					</TouchableOpacity>
+				</Link>
 			</View>
 		</View>
 	);
@@ -101,4 +103,3 @@ const styles = StyleSheet.create({
 	},
 });
 
-registerRootComponent(MainScreen);

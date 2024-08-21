@@ -1,11 +1,9 @@
-import { registerRootComponent } from "expo";
-import { Link } from "expo-router";
 import { View, Text, StyleSheet } from "react-native";
 
-export default function AboutScreen() {
+export default function SignUp() {
 	return (
 		<View style={styles.container}>
-			<Text>About</Text>
+			<Text>Login</Text>
 		</View>
 	);
 }
